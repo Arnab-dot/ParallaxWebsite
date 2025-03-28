@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
+    height: 100vh;
+
+}
+
+.img1 {
+    background-image: url(image4.jpg);
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    /* Centers the image */
+    background-repeat: no-repeat;
+    /* Prevents the image from repeating */
+    width: 100vw;
+    min-height: 100vh;
+    background-attachment: fixed;
+
+}
+
+.img1 .contenthead {
+    background-color: rgba(137, 43, 226, 0.425);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    padding: 20px;
+    margin-top: 40vh;
+    position: relative;
+
+
+}
+
+.img1 .mainContent {
+    background-color: rgba(255, 228, 196, 0.541);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.img2 {
+    background-image: url(image2.jfif);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-attachment: fixed;
+
+    display: flex;
+    /* Enables Flexbox */
+    flex-direction: column;
+    /* Stack elements vertically */
+    align-items: center;
+    /* Centers content horizontally */
+    justify-content: center;
+    /* Centers content vertically */
+    text-align: center;
+
+}
+
+.img2 .contenthead {
+    background-color: rgba(137, 43, 226, 0.425);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    padding: 20px;
+    margin-top: 40vh;
+    position: relative;
+    width: 100vw;
+
+}
+
+.img2 .mainContent {
+    background-color: rgba(255, 228, 196, 0.541);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+
+
+}
+
+.img3 {
+    background-image: url(image5.jpg);
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    /* Centers the image */
+    background-repeat: no-repeat;
+    /* Prevents the image from repeating */
+    width: 100vw;
+    height: 100vh;
+    background-attachment: fixed;
+
+}
+
+.img3 .contenthead {
+    background-color: rgba(137, 43, 226, 0.425);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    padding: 20px;
+    margin-top: 40vh;
+    position: relative;
+}
+
+.img3 .mainContent {
+    background-color: rgba(255, 228, 196, 0.541);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+
+
+}
+
+header {
+    background-color: rgba(9, 55, 139, 0.459);
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-flow: column;
+    
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+.nav-items {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 75%;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+.navLinks{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+
+
+
+
